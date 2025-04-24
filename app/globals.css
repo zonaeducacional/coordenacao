@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5e8c0;
+  color: #333;
+}
+
+:root {
+  --background: 43 96% 92%;
+  --foreground: 20 10% 30%;
+
+  --card: 43 96% 97%;
+  --card-foreground: 20 10% 30%;
+
+  --popover: 0 0% 100%;
+  --popover-foreground: 20 10% 30%;
+
+  --primary: 36 92% 37%;
+  --primary-foreground: 0 0% 100%;
+
+  --secondary: 36 30% 90%;
+  --secondary-foreground: 36 92% 37%;
+
+  --muted: 36 30% 90%;
+  --muted-foreground: 36 5% 45%;
+
+  --accent: 36 30% 90%;
+  --accent-foreground: 36 92% 37%;
+
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 0 0% 98%;
+
+  --border: 36 30% 80%;
+  --input: 36 30% 80%;
+  --ring: 36 92% 37%;
+
+  --radius: 0.5rem;
+}
